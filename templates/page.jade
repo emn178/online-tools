@@ -1,0 +1,24 @@
+extends layout
+
+block body
+  script(src='js/main.js')
+  script(src=page.metadata.js)
+  script
+    | method = #{ page.metadata.method };
+
+  #main
+    h1
+      = page.title
+    .input
+      textarea#input(placeholder='Input')
+    .submit
+      input#execute.btn.btn-default(type='button', value=page.metadata.action)
+      if page.metadata.auto_update
+        label
+          input#auto_update(type='checkbox', value='1', checked='checked')
+          | Auto Update
+    .output
+      textarea#output(placeholder='Output')
+  #sidebar
+    include includes/hash.jade
+    include includes/encoder.jade
