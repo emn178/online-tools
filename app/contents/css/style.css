@@ -94,6 +94,42 @@ a:hover {
   text-align: center;
 }
 
+#droppable-zone {
+  border: 10px dashed #ccc;
+  height: 200px;
+  width: 650px;
+  position: relative;
+  overflow: hidden;
+}
+
+#droppable-zone.hover {
+  border: 10px dashed #aaa;
+}
+
+#droppable-zone-wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+#droppable-zone-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 33px;
+  overflow: hidden;
+}
+
+.droppable-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
 textarea {
   font-family:Consolas,'Lucida Console','DejaVu Sans Mono',monospace;
   font-size: 12pt;

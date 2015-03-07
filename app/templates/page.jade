@@ -10,15 +10,23 @@ block body
     h1
       = page.title
     .input
-      textarea#input(placeholder='Input')
+      if page.metadata.file_input
+        #droppable-zone
+          #droppable-zone-wrapper
+            #droppable-zone-text
+              | Drop File Here
+          input#input.droppable-file(type='file', placeholder='Input2')
+      else
+        textarea#input(placeholder='Input')
     .submit
       input#execute.btn.btn-default(type='button', value=page.metadata.action)
       if page.metadata.auto_update
         label
-          input#auto_update(type='checkbox', value='1', checked='checked')
+          input#auto-update(type='checkbox', value='1', checked='checked')
           | Auto Update
     .output
       textarea#output(placeholder='Output')
   #sidebar
     include includes/hash.jade
+    include includes/checksum.jade
     include includes/encoder.jade
