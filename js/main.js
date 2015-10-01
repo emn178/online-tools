@@ -6,10 +6,11 @@
     var output = $('#output');
     var checkbox = $('#auto-update');
     var dropzone = $('#droppable-zone');
+    var option = $('[data-option]');
 
     var execute = function() {
       try {
-        output.val(method(input.val()));
+        output.val(method(input.val(), option.val()));
       } catch(e) {
         output.val(e);
       }
@@ -24,6 +25,7 @@
 
     if(checkbox.length > 0) {
       input.bind('input propertychange', autoUpdate);
+      option.bind('input propertychange', autoUpdate);
       checkbox.click(autoUpdate);
     }
 

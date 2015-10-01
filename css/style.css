@@ -42,6 +42,15 @@ a:hover {
   margin-left: 20px;
 }
 
+.option-block {
+  padding: 5px;
+  border-bottom: 3px dashed #D0CCCC;
+}
+
+#bits {
+  width:100px;
+}
+
 .menu {
   padding: 0;
   margin: 0;
