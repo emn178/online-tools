@@ -69,8 +69,6 @@
         reader = new FileReader();
         reader.onload = function (event) {
           try {
-            console.log(event.target.result);
-            console.log(method);
             output.val(method(event.target.result));
           } catch(e) {
             output.val(e);
