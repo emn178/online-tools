@@ -97,6 +97,11 @@ a:hover {
   border-bottom: 1px solid #eee;
 }
 
+.description {
+  color: gray;
+  margin: 10px 0;
+}
+
 .submit {
   height: 60px;
   line-height: 50px;
