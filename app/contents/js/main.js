@@ -69,11 +69,30 @@
         reader = new FileReader();
         reader.onload = function (event) {
           try {
-            output.val(method(event.target.result));
+            if (method.update) {
+              var batch = 1024 * 1024;
+              var start = 0;
+              var current = method;
+              var asyncUpdate = function () {
+                if (start < event.total) {
+                  output.val('hashing...' + (start / event.total * 100).toFixed(2) + '%');
+                  var end = Math.min(start + batch, event.total);
+                  current = current.update(event.target.result.slice(start, end));
+                  start = end;
+                  setTimeout(asyncUpdate);
+                } else {
+                  output.val(current.hex());
+                }
+              }
+              asyncUpdate();
+            } else {
+              output.val(method(event.target.result));
+            }
           } catch(e) {
             output.val(e);
           }
         };
+        output.val('loading...');
         reader.readAsArrayBuffer(file);
       };
     }
