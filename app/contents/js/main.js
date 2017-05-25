@@ -68,6 +68,7 @@
       execute = function() {
         reader = new FileReader();
         reader.onload = function (event) {
+          var value = option.val();
           try {
             if (method.update) {
               var batch = 1024 * 1024;
@@ -77,7 +78,7 @@
                 if (start < event.total) {
                   output.val('hashing...' + (start / event.total * 100).toFixed(2) + '%');
                   var end = Math.min(start + batch, event.total);
-                  current = current.update(event.target.result.slice(start, end));
+                  current = current.update(event.target.result.slice(start, end), value);
                   start = end;
                   setTimeout(asyncUpdate);
                 } else {
@@ -86,7 +87,7 @@
               }
               asyncUpdate();
             } else {
-              output.val(method(event.target.result));
+              output.val(method(event.target.result, value));
             }
           } catch(e) {
             output.val(e);
