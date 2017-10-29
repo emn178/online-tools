@@ -8,6 +8,8 @@
     var dropzone = $('#droppable-zone');
     var option = $('[data-option]');
 
+    $('a[href="' + location.pathname.substr(1) + '"]').addClass('active');
+
     var execute = function() {
       try {
         output.val(method(input.val(), option.val()));
@@ -67,34 +69,41 @@
       var file;
       execute = function() {
         reader = new FileReader();
-        reader.onload = function (event) {
-          var value = option.val();
-          try {
-            if (method.update) {
-              var batch = 1024 * 1024;
-              var start = 0;
-              var current = method;
-              var asyncUpdate = function () {
-                if (start < event.total) {
-                  output.val('hashing...' + (start / event.total * 100).toFixed(2) + '%');
-                  var end = Math.min(start + batch, event.total);
-                  current = current.update(event.target.result.slice(start, end), value);
-                  start = end;
-                  setTimeout(asyncUpdate);
-                } else {
-                  output.val(current.hex());
-                }
-              }
+        var value = option.val();
+        if (method.update) {
+          var batch = 1024 * 1024 * 8;
+          var start = 0;
+          var total = file.size;
+          var current = method;
+          reader.onload = function (event) {
+            try {
+              current = current.update(event.target.result, value);
               asyncUpdate();
-            } else {
-              output.val(method(event.target.result, value));
+            } catch(e) {
+              output.val(e);
             }
-          } catch(e) {
-            output.val(e);
-          }
-        };
-        output.val('loading...');
-        reader.readAsArrayBuffer(file);
+          };
+          var asyncUpdate = function () {
+            if (start < total) {
+              output.val('hashing...' + (start / total * 100).toFixed(2) + '%');
+              var end = Math.min(start + batch, total);
+              reader.readAsArrayBuffer(file.slice(start, end));
+              start = end;
+            } else {
+              output.val(current.hex());
+            }
+          };
+          asyncUpdate();
+        } else {
+          reader.onload = function (event) {
+            try {
+              output.val(method(event.target.result, value));
+            } catch (e) {
+              output.val(e);
+            }
+          };
+          reader.readAsArrayBuffer(file);
+        }
       };
     }
 

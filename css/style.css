@@ -1,7 +1,7 @@
 body, html, h1, h2 {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Slab', serif;
+  font-family: "SF Pro TC","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   color: #333;
 }
 
@@ -10,7 +10,7 @@ a, a:visited {
   text-decoration: none;
 }
 
-a:hover {
+a:hover, a.active {
   color: #4183c4;
 }
 
@@ -25,7 +25,7 @@ a:hover {
 }
 
 #body {
-  width: 980px;
+  width: 1024px;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -38,8 +38,19 @@ a:hover {
 
 #sidebar {
   float: left;
-  width: 250px;
+  width: 327px;
   margin-left: 20px;
+}
+
+#sidebar:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.col {
+  width: 50%;
+  float: left;
 }
 
 .option-block {
@@ -71,7 +82,7 @@ a:hover {
   font-weight: bold;
 }
 
-.menu li a:hover {
+.menu li a:hover, .menu li a.active {
   padding-left: 19px;
   border-left: 1px solid #828282
 }
@@ -89,7 +100,7 @@ a:hover {
 
 #main {
   float: left;
-  width: 700px;
+  width: 677px;
 }
 
 #main h1 {
@@ -145,7 +156,7 @@ a:hover {
 }
 
 textarea {
-  font-family:Consolas,'Lucida Console','DejaVu Sans Mono',monospace;
+  /*font-family:Consolas,'Lucida Console','DejaVu Sans Mono',monospace;*/
   font-size: 12pt;
   max-width: 95%;
   width: 95%;

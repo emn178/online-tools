@@ -1,5 +1,5 @@
 ---
-title: SHA512 File Checksum
+title: SHA512 File Hash
 template: page.jade
 js: https://rawgit.com/emn178/js-sha512/master/build/sha512.min.js
 method: sha512

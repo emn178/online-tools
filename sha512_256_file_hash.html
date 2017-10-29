@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="MD4 online hash function">
-    <title>MD4 Online
+    <meta name="description" content="SHA512/256 online hash file checksum function">
+    <title>SHA512/256 File Hash Online
     </title>
     <script>
       if (location.hostname != 'localhost') {
@@ -24,12 +24,17 @@
     <div id="body">
       <script src="js/main.js"></script>
       <div id="main">
-        <h1>MD4
+        <h1>SHA512/256 File Hash
         </h1>
-        <div class="description">MD4 online hash function
+        <div class="description">SHA512/256 online hash file checksum function
         </div>
         <div class="input">
-          <textarea id="input" placeholder="Input"></textarea>
+          <div id="droppable-zone">
+            <div id="droppable-zone-wrapper">
+              <div id="droppable-zone-text">Drop File Here</div>
+            </div>
+            <input id="input" type="file" placeholder="Input2" class="droppable-file">
+          </div>
         </div>
         <div class="submit">
           <input id="execute" type="button" value="Hash" class="btn btn-default">
@@ -130,8 +135,8 @@
         </div>
         <div class="clearfix"></div>
       </div>
-      <script src="https://rawgit.com/emn178/js-md4/master/build/md4.min.js"></script>
-      <script>method = md4;</script>
+      <script src="https://rawgit.com/emn178/js-sha512/master/build/sha512.min.js"></script>
+      <script>method = sha512_256;</script>
     </div>
     <div id="footer">&copy; 2015-2017 Online Tools</div>
   </body>

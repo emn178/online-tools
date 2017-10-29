@@ -31,10 +31,14 @@ block body
       textarea#output(placeholder='Output')
     != page.html
   #sidebar
-    include includes/hash.jade
-    include includes/checksum.jade
-    include includes/encoder.jade
-    include includes/misc.jade
+    .col
+      include includes/hash.jade
+      include includes/encoder.jade
+      include includes/misc.jade
+    .col
+      include includes/file_hash.jade
+      include includes/decoder.jade
+    .clearfix
 
   script(src=page.metadata.js)
   script

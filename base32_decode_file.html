@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="MD4 online hash function">
-    <title>MD4 Online
+    <meta name="description" content="Decode and download file from base32 online function">
+    <title>Base32 Decode File Online
     </title>
     <script>
       if (location.hostname != 'localhost') {
@@ -24,22 +24,33 @@
     <div id="body">
       <script src="js/main.js"></script>
       <div id="main">
-        <h1>MD4
+        <h1>Base32 Decode File
         </h1>
-        <div class="description">MD4 online hash function
+        <div class="description">Decode and download file from base32 online function
         </div>
         <div class="input">
           <textarea id="input" placeholder="Input"></textarea>
         </div>
         <div class="submit">
-          <input id="execute" type="button" value="Hash" class="btn btn-default">
-          <label>
-            <input id="auto-update" type="checkbox" value="1" checked="checked">Auto Update
-          </label>
+          <input id="execute" type="button" value="Download" class="btn btn-default">
         </div>
         <div class="output">
           <textarea id="output" placeholder="Output"></textarea>
-        </div>
+        </div><script src="https://rawgit.com/emn178/hi-base64/master/build/base64.min.js"></script>
+<script>
+$(document).ready(function() {
+  var download = $('<a class="btn btn-default" download="base32"/>').text('Download');
+  download.click(function() {
+    var base32Str = $('#input').val();
+    var bytes = base32.decode.asBytes(base32Str);
+    var base64Str = base64.encode(bytes);
+    download.attr('href', 'data:application/octet-stream;base64,' + base64Str);
+  });
+  $('#execute').replaceWith(download);
+  $('.output').remove();
+});
+</script>
+
       </div>
       <div id="sidebar">
         <div class="col">
@@ -130,8 +141,8 @@
         </div>
         <div class="clearfix"></div>
       </div>
-      <script src="https://rawgit.com/emn178/js-md4/master/build/md4.min.js"></script>
-      <script>method = md4;</script>
+      <script src="https://rawgit.com/emn178/hi-base32/master/build/base32.min.js"></script>
+      <script>method = false;</script>
     </div>
     <div id="footer">&copy; 2015-2017 Online Tools</div>
   </body>

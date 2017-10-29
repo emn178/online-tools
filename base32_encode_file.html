@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="MD4 online hash function">
-    <title>MD4 Online
+    <meta name="description" content="Base32 online encode file function">
+    <title>Base32 Encode File Online
     </title>
     <script>
       if (location.hostname != 'localhost') {
@@ -24,15 +24,20 @@
     <div id="body">
       <script src="js/main.js"></script>
       <div id="main">
-        <h1>MD4
+        <h1>Base32 Encode File
         </h1>
-        <div class="description">MD4 online hash function
+        <div class="description">Base32 online encode file function
         </div>
         <div class="input">
-          <textarea id="input" placeholder="Input"></textarea>
+          <div id="droppable-zone">
+            <div id="droppable-zone-wrapper">
+              <div id="droppable-zone-text">Drop File Here</div>
+            </div>
+            <input id="input" type="file" placeholder="Input2" class="droppable-file">
+          </div>
         </div>
         <div class="submit">
-          <input id="execute" type="button" value="Hash" class="btn btn-default">
+          <input id="execute" type="button" value="Encode" class="btn btn-default">
           <label>
             <input id="auto-update" type="checkbox" value="1" checked="checked">Auto Update
           </label>
@@ -130,8 +135,8 @@
         </div>
         <div class="clearfix"></div>
       </div>
-      <script src="https://rawgit.com/emn178/js-md4/master/build/md4.min.js"></script>
-      <script>method = md4;</script>
+      <script src="https://rawgit.com/emn178/hi-base32/master/build/base32.min.js"></script>
+      <script>method = base32.encode;</script>
     </div>
     <div id="footer">&copy; 2015-2017 Online Tools</div>
   </body>
