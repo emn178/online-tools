@@ -1,6 +1,8 @@
 # Online Tools
-Please go to [Online Tools](http://emn178.github.io/online-tools/)
+Please go to [Online Tools](https://dukei.github.io/online-tools/)
 
 ## Contact
-The project's website is located at https://github.com/emn178/online-tools  
-Author: emn178@gmail.com
+The project is forked from https://github.com/emn178/online-tools
+I have added support for input and output encodings (hex, base64, plain)
+
+For bugs not concerning input/output encodings please consult with the original author: emn178@gmail.com
