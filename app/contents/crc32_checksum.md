@@ -1,7 +1,7 @@
 ---
 title: CRC-32 File Checksum
 template: page.jade
-js: https://rawgit.com/emn178/js-crc/master/build/crc.min.js
+js: https://cdn.jsdelivr.net/gh/emn178/js-crc/build/crc.min.js
 method: crc32
 action: Hash
 auto_update: true
