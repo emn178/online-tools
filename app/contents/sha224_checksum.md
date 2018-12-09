@@ -1,7 +1,7 @@
 ---
 title: SHA224 File Checksum
 template: page.jade
-js: https://rawgit.com/emn178/js-sha256/master/build/sha256.min.js
+js: https://cdn.jsdelivr.net/gh/emn178/js-sha256/build/sha256.min.js
 method: sha224
 action: Hash
 auto_update: true

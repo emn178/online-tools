@@ -1,7 +1,7 @@
 ---
 title: Base64 Encode
 template: page.jade
-js: https://rawgit.com/emn178/hi-base64/master/build/base64.min.js
+js: https://cdn.jsdelivr.net/gh/emn178/hi-base64/build/base64.min.js
 method: base64.encode
 action: Encode
 auto_update: true

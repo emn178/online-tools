@@ -1,7 +1,7 @@
 ---
 title: Keccak-384 File Checksum
 template: page.jade
-js: https://rawgit.com/emn178/js-sha3/master/build/sha3.min.js
+js: https://cdn.jsdelivr.net/gh/emn178/js-sha3/build/sha3.min.js
 method: keccak_384
 action: Hash
 auto_update: true

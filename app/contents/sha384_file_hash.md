@@ -1,7 +1,7 @@
 ---
 title: SHA384 File Hash
 template: page.jade
-js: https://rawgit.com/emn178/js-sha512/master/build/sha512.min.js
+js: https://cdn.jsdelivr.net/gh/emn178/js-sha512/build/sha512.min.js
 method: sha384
 action: Hash
 auto_update: true
