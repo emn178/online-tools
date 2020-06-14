@@ -9,7 +9,7 @@ description: Online syntax highlight tool
 keywords: syntax highlight
 ---
 <span>
-  <script src="https://highlightjs.org/static/highlight.pack.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script>
   <link rel="stylesheet" title="Default" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/default.min.css" />
   <link rel="alternate stylesheet" title="Agate" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/agate.min.css" disabled />
   <link rel="alternate stylesheet" title="Androidstudio" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/androidstudio.min.css" disabled />
