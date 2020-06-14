@@ -1,16 +1,40 @@
 ;(function($, window, document, undefined) {
   window.method = null;
 
+  function hexToString(hex) {
+    if (!hex.match(/^[0-9a-fA-F]+$/)) {
+      throw new Error('is not a hex string.');
+    }
+    if (hex.length % 2 !== 0) {
+      hex = '0' + hex;
+    }
+    var str = '';
+    for (var n = 0; n < hex.length; n += 2) {
+      var code = parseInt(hex.substr(n, 2), 16)
+      str += String.fromCharCode(code);
+    }
+    return str;
+  }
+
   $(document).ready(function() {
     var input = $('#input');
     var output = $('#output');
     var checkbox = $('#auto-update');
     var dropzone = $('#droppable-zone');
     var option = $('[data-option]');
+    var inputType = $('#input-type');
 
     var execute = function() {
       try {
-        output.val(method(input.val(), option.val()));
+        var type = 'text';
+        var val = input.val();
+        if (inputType.length) {
+          type = inputType.val();
+        }
+        if (type === 'hex') {
+          val = hexToString(val);
+        }
+        output.val(method(val, option.val()));
       } catch(e) {
         output.val(e);
       }
@@ -25,6 +49,7 @@
 
     if(checkbox.length > 0) {
       input.bind('input propertychange', autoUpdate);
+      inputType.bind('input propertychange', autoUpdate);
       option.bind('input propertychange', autoUpdate);
       checkbox.click(autoUpdate);
     }
@@ -38,7 +63,7 @@
       });
 
       if(!window.FileReader) {
-        dropzonetext.text('Your browser dose not support.');
+        dropzonetext.text('Your browser does not support.');
         $('input').attr('disabled', true);
         return;
       }
