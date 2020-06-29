@@ -17,7 +17,7 @@ block body
           input#input.droppable-file(type='file', placeholder='Input2')
       else
         textarea#input(placeholder='Input')
-        if page.metadata.method != 'highlight'
+        if page.metadata.hex_input
           .option-block
             label(for='input-type') Input type
             select#input-type

@@ -8,12 +8,12 @@
     if (hex.length % 2 !== 0) {
       hex = '0' + hex;
     }
-    var str = '';
+    var bytes = [];
     for (var n = 0; n < hex.length; n += 2) {
       var code = parseInt(hex.substr(n, 2), 16)
-      str += String.fromCharCode(code);
+      bytes.push(code);
     }
-    return str;
+    return bytes;
   }
 
   $(document).ready(function() {
