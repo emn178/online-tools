@@ -1,5 +1,16 @@
 {
-  "name"    : "online-tools",
-  "version" : "1.0.0",
-  "main"    : "main.js"
+  "name": "hash-tools",
+  "description": "Hash-Calculator for Files & Strings",
+  "author": "emn178",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+
+  "devDependencies": {
+    "electron-builder": "^22.9.1",
+    "electron": "^11.0.4"
+  }
 }
