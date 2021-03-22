@@ -1,6 +1,6 @@
 ---
 title: SHA256 File Checksum
-template: page.jade
+template: page.pug
 js: https://cdn.jsdelivr.net/gh/emn178/js-sha256/build/sha256.min.js
 method: sha256
 action: Hash

@@ -1,6 +1,6 @@
 ---
 title: Keccak-256
-template: page.jade
+template: page.pug
 js: https://cdn.jsdelivr.net/gh/emn178/js-sha3/build/sha3.min.js
 method: keccak_256
 action: Hash

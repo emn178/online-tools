@@ -1,6 +1,6 @@
 ---
 title: Syntax Highlight
-template: page.jade
+template: page.pug
 js: js/syntax-highlight.js
 method: highlight
 action: Highlight

@@ -1,6 +1,6 @@
 ---
 title: Base64 Decode File
-template: page.jade
+template: page.pug
 method: false
 action: Download
 auto_update: false

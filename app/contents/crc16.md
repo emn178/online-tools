@@ -1,6 +1,6 @@
 ---
 title: CRC-16
-template: page.jade
+template: page.pug
 js: https://cdn.jsdelivr.net/gh/emn178/js-crc/build/crc.min.js
 method: crc16
 action: Hash

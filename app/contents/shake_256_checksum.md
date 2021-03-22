@@ -1,6 +1,6 @@
 ---
 title: SHAKE-256 File Checksum
-template: page.jade
+template: page.pug
 js: https://cdn.jsdelivr.net/gh/emn178/js-sha3/build/sha3.min.js
 method: shake_256
 bits: 512

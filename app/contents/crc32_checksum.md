@@ -1,6 +1,6 @@
 ---
 title: CRC-32 File Checksum
-template: page.jade
+template: page.pug
 js: https://cdn.jsdelivr.net/gh/emn178/js-crc/build/crc.min.js
 method: crc32
 action: Hash

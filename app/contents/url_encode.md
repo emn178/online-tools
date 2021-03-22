@@ -1,6 +1,6 @@
 ---
 title: URL Encode
-template: page.jade
+template: page.pug
 method: encodeURIComponent
 action: Encode
 auto_update: true

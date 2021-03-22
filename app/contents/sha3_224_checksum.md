@@ -1,6 +1,6 @@
 ---
 title: SHA3-224 File Checksum
-template: page.jade
+template: page.pug
 js: https://cdn.jsdelivr.net/gh/emn178/js-sha3/build/sha3.min.js
 method: sha3_224
 action: Hash

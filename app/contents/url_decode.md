@@ -1,6 +1,6 @@
 ---
 title: URL Decode
-template: page.jade
+template: page.pug
 method: decodeURIComponent
 action: Decode
 auto_update: true

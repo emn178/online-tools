@@ -1,6 +1,6 @@
 ---
 title: MD5
-template: page.jade
+template: page.pug
 js: https://cdn.jsdelivr.net/gh/emn178/js-md5/build/md5.min.js
 method: md5
 action: Hash
