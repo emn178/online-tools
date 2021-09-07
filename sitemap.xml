@@ -4,154 +4,303 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
-  <loc>http://emn178.github.io/online-tools/index.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/crc16.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/index.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/crc32.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/crc16.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/md2.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/crc32.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/md4.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/md2.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/md5.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/md4.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/sha1.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/md5.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/sha224.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha1.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/sha256.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha224.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/sha384.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha256.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/sha512.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha384.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/sha512_224.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha512.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/sha512_256.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha512_224.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/sha3_224.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha512_256.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/sha3_256.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha3_224.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/sha3_384.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha3_256.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/sha3_512.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha3_384.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/keccak_224.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha3_512.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/keccak_256.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/keccak_224.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/keccak_384.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/keccak_256.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/keccak_512.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/keccak_384.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/shake_128.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/keccak_512.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/shake_256.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/shake_128.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/crc32_checksum.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/shake_256.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/md5_checksum.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/crc16_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/sha1_checksum.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/crc32_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/base32_encode.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/md2_file_hash.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/base32_decode.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/md4_file_hash.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/base64_encode.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/md5_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/base64_decode.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha1_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/base64_encode_file.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha224_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/base64_decode_file.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha256_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/html_encode.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha384_file_hash.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/html_decode.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha512_file_hash.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/url_encode.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha512_224_file_hash.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/url_decode.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha512_256_file_hash.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://emn178.github.io/online-tools/syntax_highlight.html</loc>
-  <lastmod>2016-07-12T08:08:11+00:00</lastmod>
+  <loc>https://converter0.cf/sha3_224_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://converter0.cf/sha3_256_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/sha3_384_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/sha3_512_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/keccak_224_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/keccak_256_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/keccak_384_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/keccak_512_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/shake_128_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/shake_256_checksum.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/base32_encode.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/base32_encode_file.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/base64_encode.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/base64_encode_file.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/html_encode.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/url_encode.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/base32_decode.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/base32_decode_file.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/base64_decode.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/base64_decode_file.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/html_decode.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/url_decode.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://converter0.cf/syntax_highlight.html</loc>
+  <lastmod>2021-09-06T14:55:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
