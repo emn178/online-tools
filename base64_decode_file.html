@@ -23,6 +23,7 @@
     </div>
     <div id="body">
       <script src="js/main.js"></script>
+      <script src="js/clipboard.min.js"></script>
       <div id="main">
         <h1>Base64 Decode File
         </h1>
@@ -36,6 +37,9 @@
         </div>
         <div class="output">
           <textarea id="output" placeholder="Output"></textarea>
+        </div>
+        <div class="submit">
+          <input class="btn btn-default" type="button" value="Copy" data-clipboard-target="#output">
         </div><script>
 $(document).ready(function() {
   var download = $('<a class="btn btn-default" download="base64"/>').text('Download');
@@ -140,6 +144,7 @@ $(document).ready(function() {
       </div>
       <script></script>
       <script>method = false;</script>
+      <script>new ClipboardJS('.btn')</script>
     </div>
     <div id="footer">&copy; 2015-2017 Online Tools</div>
   </body>

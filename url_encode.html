@@ -23,6 +23,7 @@
     </div>
     <div id="body">
       <script src="js/main.js"></script>
+      <script src="js/clipboard.min.js"></script>
       <div id="main">
         <h1>URL Encode
         </h1>
@@ -39,6 +40,9 @@
         </div>
         <div class="output">
           <textarea id="output" placeholder="Output"></textarea>
+        </div>
+        <div class="submit">
+          <input class="btn btn-default" type="button" value="Copy" data-clipboard-target="#output">
         </div>
       </div>
       <div id="sidebar">
@@ -132,6 +136,7 @@
       </div>
       <script></script>
       <script>method = encodeURIComponent;</script>
+      <script>new ClipboardJS('.btn')</script>
     </div>
     <div id="footer">&copy; 2015-2017 Online Tools</div>
   </body>
