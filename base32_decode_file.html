@@ -1,22 +1,63 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="content-language" content="en"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Decode Base32 to File - Online Tools</title><meta name="keywords" content="Base32,online,decode,download,file"><meta name="author" content="emn178"><meta name="copyright" content="emn178"><meta name="description" content="This Base32 to file online tool helps you decode Base32 string to file and download."><meta property="og:type" content="website"><meta property="og:title" content="Decode Base32 to File"><meta property="og:url" content="https://emn178.github.io/online-tools/base32_decode_file.html"><meta property="og:site_name" content="Online Tools"><meta property="og:description" content="This Base32 to file online tool helps you decode Base32 string to file and download."><meta property="og:locale" content="en"><meta property="article:author" content="emn178"><meta property="article:tag" content="Base32,online,decode,download,file"><meta property="twitter:card" content="summary"><link rel="canonical" href="https://emn178.github.io/online-tools/base32_decode_file.html"><script async src="https://www.googletagmanager.com/gtag/js?id=G-WT6N5R6W6Z"></script><script>if (location.hostname != 'localhost') {
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="content-language" content="en"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Decode Base32 to File - Online Tools</title><meta name="keywords" content="Base32,online,decode,download,file"><meta name="author" content="emn178"><meta name="copyright" content="emn178"><meta name="description" content="This Base32 to file online tool helps you decode Base32 string to file and download."><meta property="og:type" content="website"><meta property="og:title" content="Decode Base32 to File"><meta property="og:url" content="https://emn178.github.io/online-tools/base32_decode_file.html"><meta property="og:site_name" content="Online Tools"><meta property="og:description" content="This Base32 to file online tool helps you decode Base32 string to file and download."><meta property="og:locale" content="en"><meta property="article:author" content="emn178"><meta property="article:tag" content="Base32,online,decode,download,file"><meta property="twitter:card" content="summary"><link rel="canonical" href="https://emn178.github.io/online-tools/base32_decode_file.html"><script>if (location.hostname != 'localhost') {
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-WT6N5R6W6Z');
 }
-</script><link rel="stylesheet" href="css/style.css"><script src="https://code.jquery.com/jquery-1.10.1.min.js"></script></head><body><div id="header"><div class="site-name"><a href="./">Online Tools</a></div></div><div id="body"><script src="js/main.js"></script><div id="main"><h1>Decode Base32 to File</h1><div class="description">This Base32 to file online tool helps you decode Base32 string to file and download.</div><div class="input"><textarea id="input" placeholder="Input"></textarea></div><div class="submit"><input class="btn btn-default" id="execute" type="button" value="Download"></div><div class="output"><textarea id="output" placeholder="Output"></textarea></div><script src="https://cdn.jsdelivr.net/gh/emn178/hi-base64/build/base64.min.js"></script>
-<script>
-$(document).ready(function() {
-  var download = $('<a class="btn btn-default" download="base32"/>').text('Download');
-  download.click(function() {
-    var base32Str = $('#input').val();
-    var bytes = base32.decode.asBytes(base32Str);
-    var base64Str = base64.encode(bytes);
-    download.attr('href', 'data:application/octet-stream;base64,' + base64Str);
+
+var delayScripts = [];
+(function () {
+  var gaUrl = 'https://www.googletagmanager.com/gtag/js?id=G-WT6N5R6W6Z';
+
+  function initGTMOnEvent(e) {
+    document.removeEventListener(event.type, initGTMOnEvent);
+    initGTM();
+  }
+
+  function initGTM() {
+    if (window.gtmDidInit) {
+      return;
+    }
+    window.gtmDidInit = true;
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = gaUrl;
+    document.head.appendChild(script);
+  }
+
+  if (document.addEventListener) {
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(initGTM, 3500);
+    });
+    document.addEventListener('scroll', initGTMOnEvent);
+    document.addEventListener('mousemove', initGTMOnEvent);
+    document.addEventListener('touchstart', initGTMOnEvent);
+  } else {
+    delayScripts.push({
+      src: gaUrl
+    });
+  }
+})();
+</script><link rel="stylesheet" href="css/style.css"></head><body><div id="header"><div class="site-name"><a href="./">Online Tools</a></div></div><div id="body"><div id="main"><h1>Decode Base32 to File</h1><div class="description">This Base32 to file online tool helps you decode Base32 string to file and download.</div><div class="input"><textarea id="input" placeholder="Input"></textarea></div><div class="submit"><button class="btn btn-default" id="execute">Download</button></div><script>
+  delayScripts.push({
+    src: 'https://cdn.jsdelivr.net/gh/emn178/hi-base64/build/base64.min.js',
+    onload: function () {
+      var download = $('<a class="btn btn-default" download="base32"/>').text('Download');
+      download.click(function() {
+        var base32Str = $('#input').val();
+        var bytes = base32.decode.asBytes(base32Str);
+        var base64Str = base64.encode(bytes);
+        download.attr('href', 'data:application/octet-stream;base64,' + base64Str);
+      });
+      $('#execute').replaceWith(download);
+      // $('.output').remove();
+    }
   });
-  $('#execute').replaceWith(download);
-  $('.output').remove();
-});
 </script>
-</div><div id="sidebar"><div class="col"><ul class="menu"><li><div class="menu-group">Hash</div></li><li><a href="crc16.html">CRC-16</a></li><li><a href="crc32.html">CRC-32</a></li><li><a href="md2.html">MD2</a></li><li><a href="md4.html">MD4</a></li><li><a href="md5.html">MD5</a></li><li><a href="sha1.html">SHA1</a></li><li><a href="sha224.html">SHA224</a></li><li><a href="sha256.html">SHA256</a></li><li><a href="sha384.html">SHA384</a></li><li><a href="sha512.html">SHA512</a></li><li><a href="sha512_224.html">SHA512/224</a></li><li><a href="sha512_256.html">SHA512/256</a></li><li><a href="sha3_224.html">SHA3-224</a></li><li><a href="sha3_256.html">SHA3-256</a></li><li><a href="sha3_384.html">SHA3-384</a></li><li><a href="sha3_512.html">SHA3-512</a></li><li><a href="keccak_224.html">Keccak-224</a></li><li><a href="keccak_256.html">Keccak-256</a></li><li><a href="keccak_384.html">Keccak-384</a></li><li><a href="keccak_512.html">Keccak-512</a></li><li><a href="shake_128.html">Shake-128</a></li><li><a href="shake_256.html">Shake-256</a></li></ul><ul class="menu"><li><div class="menu-group">Encode</div></li><li><a href="base32_encode.html">Base32</a></li><li><a href="base32_encode_file.html">File to Base32</a></li><li><a href="base64_encode.html">Base64</a></li><li><a href="base64_encode_file.html">File to Base64</a></li><li><a href="html_encode.html">HTML</a></li><li><a href="url_encode.html">URL</a></li></ul><ul class="menu"><li><div class="menu-group">Misc</div></li><li><a href="syntax_highlight.html">Syntax Highlight</a></li></ul></div><div class="col"><ul class="menu"><li><div class="menu-group">File Hash</div></li><li><a href="crc16_checksum.html">CRC-16</a></li><li><a href="crc32_checksum.html">CRC-32</a></li><li><a href="md2_file_hash.html">MD2</a></li><li><a href="md4_file_hash.html">MD4</a></li><li><a href="md5_checksum.html">MD5</a></li><li><a href="sha1_checksum.html">SHA1</a></li><li><a href="sha224_checksum.html">SHA224</a></li><li><a href="sha256_checksum.html">SHA256</a></li><li><a href="sha384_file_hash.html">SHA384</a></li><li><a href="sha512_file_hash.html">SHA512</a></li><li><a href="sha512_224_file_hash.html">SHA512/224</a></li><li><a href="sha512_256_file_hash.html">SHA512/256</a></li><li><a href="sha3_224_checksum.html">SHA3-224</a></li><li><a href="sha3_256_checksum.html">SHA3-256</a></li><li><a href="sha3_384_checksum.html">SHA3-384</a></li><li><a href="sha3_512_checksum.html">SHA3-512</a></li><li><a href="keccak_224_checksum.html">Keccak-224</a></li><li><a href="keccak_256_checksum.html">Keccak-256</a></li><li><a href="keccak_384_checksum.html">Keccak-384</a></li><li><a href="keccak_512_checksum.html">Keccak-512</a></li><li><a href="shake_128_checksum.html">Shake-128</a></li><li><a href="shake_256_checksum.html">Shake-256</a></li></ul><ul class="menu"><li><div class="menu-group">Decode</div></li><li><a href="base32_decode.html">Base32</a></li><li><a href="base32_decode_file.html">Base32 to File</a></li><li><a href="base64_decode.html">Base64</a></li><li><a href="base64_decode_file.html">Base64 to File</a></li><li><a href="html_decode.html">HTML</a></li><li><a href="url_decode.html">URL</a></li></ul></div><div class="clearfix"></div></div><script src="https://cdn.jsdelivr.net/gh/emn178/hi-base32@v0.5.1/build/base32.min.js"></script><script>method = false;</script></div><div id="footer"><div><a href="https://github.com/emn178/online-tools/issues">Create issues </a>if any problem.</div>&copy; 2015-2023 Online Tools</div></body></html>
+</div><div id="sidebar"><div class="col"><ul class="menu"><li><div class="menu-group">Hash</div></li><li><a href="crc16.html">CRC-16</a></li><li><a href="crc32.html">CRC-32</a></li><li><a href="md2.html">MD2</a></li><li><a href="md4.html">MD4</a></li><li><a href="md5.html">MD5</a></li><li><a href="sha1.html">SHA1</a></li><li><a href="sha224.html">SHA224</a></li><li><a href="sha256.html">SHA256</a></li><li><a href="sha384.html">SHA384</a></li><li><a href="sha512.html">SHA512</a></li><li><a href="sha512_224.html">SHA512/224</a></li><li><a href="sha512_256.html">SHA512/256</a></li><li><a href="sha3_224.html">SHA3-224</a></li><li><a href="sha3_256.html">SHA3-256</a></li><li><a href="sha3_384.html">SHA3-384</a></li><li><a href="sha3_512.html">SHA3-512</a></li><li><a href="keccak_224.html">Keccak-224</a></li><li><a href="keccak_256.html">Keccak-256</a></li><li><a href="keccak_384.html">Keccak-384</a></li><li><a href="keccak_512.html">Keccak-512</a></li><li><a href="shake_128.html">Shake-128</a></li><li><a href="shake_256.html">Shake-256</a></li></ul><ul class="menu"><li><div class="menu-group">Encode</div></li><li><a href="base32_encode.html">Base32</a></li><li><a href="base32_encode_file.html">File to Base32</a></li><li><a href="base64_encode.html">Base64</a></li><li><a href="base64_encode_file.html">File to Base64</a></li><li><a href="html_encode.html">HTML</a></li><li><a href="url_encode.html">URL</a></li></ul><ul class="menu"><li><div class="menu-group">Misc</div></li><li><a href="syntax_highlight.html">Syntax Highlight</a></li></ul></div><div class="col"><ul class="menu"><li><div class="menu-group">File Hash</div></li><li><a href="crc16_checksum.html">CRC-16</a></li><li><a href="crc32_checksum.html">CRC-32</a></li><li><a href="md2_file_hash.html">MD2</a></li><li><a href="md4_file_hash.html">MD4</a></li><li><a href="md5_checksum.html">MD5</a></li><li><a href="sha1_checksum.html">SHA1</a></li><li><a href="sha224_checksum.html">SHA224</a></li><li><a href="sha256_checksum.html">SHA256</a></li><li><a href="sha384_file_hash.html">SHA384</a></li><li><a href="sha512_file_hash.html">SHA512</a></li><li><a href="sha512_224_file_hash.html">SHA512/224</a></li><li><a href="sha512_256_file_hash.html">SHA512/256</a></li><li><a href="sha3_224_checksum.html">SHA3-224</a></li><li><a href="sha3_256_checksum.html">SHA3-256</a></li><li><a href="sha3_384_checksum.html">SHA3-384</a></li><li><a href="sha3_512_checksum.html">SHA3-512</a></li><li><a href="keccak_224_checksum.html">Keccak-224</a></li><li><a href="keccak_256_checksum.html">Keccak-256</a></li><li><a href="keccak_384_checksum.html">Keccak-384</a></li><li><a href="keccak_512_checksum.html">Keccak-512</a></li><li><a href="shake_128_checksum.html">Shake-128</a></li><li><a href="shake_256_checksum.html">Shake-256</a></li></ul><ul class="menu"><li><div class="menu-group">Decode</div></li><li><a href="base32_decode.html">Base32</a></li><li><a href="base32_decode_file.html">Base32 to File</a></li><li><a href="base64_decode.html">Base64</a></li><li><a href="base64_decode_file.html">Base64 to File</a></li><li><a href="html_decode.html">HTML</a></li><li><a href="url_decode.html">URL</a></li></ul></div><div class="clearfix"></div></div><script>delayScripts.push({
+  src: 'https://cdn.jsdelivr.net/gh/emn178/hi-base32@v0.5.1/build/base32.min.js',
+  onload: function () {
+    window.method = false;
+  }
+});</script></div><div id="footer"><div class="contact"><a href="https://github.com/emn178/online-tools/issues">Create issues </a>if any problem.</div><div class="copyright">&copy; 2015-2023 Online Tools</div></div><script src="https://code.jquery.com/jquery-1.10.1.min.js" defer></script><script src="js/main.js" defer></script></body></html>
