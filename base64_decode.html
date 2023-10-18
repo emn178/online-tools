@@ -21,14 +21,14 @@ var waitLoadCount = 0;
       return;
     }
     window.gtmDidInit = true;
-    const script = document.createElement('script');
+    var script = document.createElement('script');
     script.async = true;
     script.src = gaUrl;
     document.head.appendChild(script);
   }
 
   if (document.addEventListener) {
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', function() {
       setTimeout(initGTM, 3500);
     });
     document.addEventListener('scroll', initGTMOnEvent);
