@@ -1,24 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow" />
-  <title>QR Code - Online Tools</title>
-  <style>
-    html,body {
-      margin: 0;
-      padding: 0;
-    }
-  </style>
-</head>
-<body>
-  <div id="qrcode"></div>
-  <script src="https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
-  <script src="js/file.js"></script>
-  <script src="js/qrcode.js?v=1"></script>
-  <script>
-    generateByQuery(fetchQuery());
-  </script>
-</body>
+  <head>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=/online-tools/qr-code/" />
+    </noscript>
+    <script>
+      window.location.href = '/online-tools/qr-code/' + (window.location.search || '') + (window.location.hash || '');
+    </script>
+  </head>
 </html>
+      
