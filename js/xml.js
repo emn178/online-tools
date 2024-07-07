@@ -1,0 +1,1 @@
+!function(){"use strict";function t(t){return"Comment"!==t.type}function n(n,r){return xmlFormatter.minify(n,{filter:r&&t})}function r(t,n,r){for(var i="space"===n?" ":"\t",e="",o=0;o<r;++o)e+=i;return xmlFormatter(t,{indentation:e})}window.xml={minify:n,format:r}}();
