@@ -1,10 +1,10 @@
 <svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
  <g>
-  <line y2="43.00149" x2="32" y1="14.75024" x1="32" stroke-width="5" stroke="#6b7280"/>
-  <path d="m9.62489,43.12538l0,7.12681" stroke-width="3" stroke="#6b7280"/>
-  <path stroke="#6b7280" d="m8.12488,51.62542l47.75024,0" stroke-width="3"/>
-  <line y2="24.37596" x2="41.87572" y1="12.75023" x1="30.24999" stroke-width="5" stroke="#6b7280"/>
-  <line transform="rotate(90 27.8128 18.6881)" id="svg_14" y2="24.50096" x2="33.62568" y1="12.87523" x1="21.99995" stroke-width="5" stroke="#6b7280"/>
-  <path d="m54.39267,43.25038l0,7.12681" stroke-width="3" stroke="#6b7280"/>
+  <line y2="43.00149" x2="32" y1="14.75024" x1="32" stroke-width="5" stroke="#9ca3af"/>
+  <path d="m9.62489,43.12538l0,7.12681" stroke-width="3" stroke="#9ca3af"/>
+  <path stroke="#9ca3af" d="m8.12488,51.62542l47.75024,0" stroke-width="3"/>
+  <line y2="24.37596" x2="41.87572" y1="12.75023" x1="30.24999" stroke-width="5" stroke="#9ca3af"/>
+  <line transform="rotate(90 27.8128 18.6881)" id="svg_14" y2="24.50096" x2="33.62568" y1="12.87523" x1="21.99995" stroke-width="5" stroke="#9ca3af"/>
+  <path d="m54.39267,43.25038l0,7.12681" stroke-width="3" stroke="#9ca3af"/>
  </g>
 </svg>

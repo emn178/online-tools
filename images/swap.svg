@@ -1,10 +1,10 @@
 <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
  <g>
-  <line stroke="#6b7280" stroke-width="3" y2="10.47192" x2="28.35961" y1="10.47192" x1="7.22709"/>
-  <line y2="11.496" x2="28.89452" y1="6.20566" x1="23.60419" stroke-width="3" stroke="#6b7280"/>
-  <line transform="rotate(90 26.155 12.1526)" y2="14.79772" x2="28.80019" y1="9.50739" x1="23.50985" stroke-width="3" stroke="#6b7280"/>
-  <line stroke="#6b7280" stroke-width="3" y2="21.41478" x2="25.05788" y1="21.41478" x1="3.92537"/>
-  <line y2="25.64624" x2="8.80117" y1="20.35591" x1="3.51084" stroke-width="3" stroke="#6b7280"/>
-  <line transform="rotate(90 6.15606 19.7936)" y2="22.43885" x2="8.80117" y1="17.14852" x1="3.51084" stroke-width="3" stroke="#6b7280"/>
+  <line stroke="#9ca3af" stroke-width="3" y2="10.47192" x2="28.35961" y1="10.47192" x1="7.22709"/>
+  <line y2="11.496" x2="28.89452" y1="6.20566" x1="23.60419" stroke-width="3" stroke="#9ca3af"/>
+  <line transform="rotate(90 26.155 12.1526)" y2="14.79772" x2="28.80019" y1="9.50739" x1="23.50985" stroke-width="3" stroke="#9ca3af"/>
+  <line stroke="#9ca3af" stroke-width="3" y2="21.41478" x2="25.05788" y1="21.41478" x1="3.92537"/>
+  <line y2="25.64624" x2="8.80117" y1="20.35591" x1="3.51084" stroke-width="3" stroke="#9ca3af"/>
+  <line transform="rotate(90 6.15606 19.7936)" y2="22.43885" x2="8.80117" y1="17.14852" x1="3.51084" stroke-width="3" stroke="#9ca3af"/>
  </g>
 </svg>
