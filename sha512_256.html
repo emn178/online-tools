@@ -1,45 +1,45 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="content-language" content="en"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SHA512/256 - Online Tools</title><base href="/online-tools/"><meta name="keywords" content="SHA512/256, online, hash, HMAC, UTF-8, UTF-16, Hex"><meta name="author" content="emn178"><meta name="copyright" content="emn178"><meta name="description" content="This SHA512/256 online tool helps you calculate hash from string or binary. You can input UTF-8, UTF-16, Hex to SHA512/256. It also supports HMAC."><meta property="og:type" content="website"><meta property="og:title" content="SHA512/256"><meta property="og:url" content="https://emn178.github.io/online-tools/sha512_256.html"><meta property="og:site_name" content="Online Tools"><meta property="og:description" content="This SHA512/256 online tool helps you calculate hash from string or binary. You can input UTF-8, UTF-16, Hex to SHA512/256. It also supports HMAC."><meta property="og:locale" content="en"><meta property="og:image" content="https://emn178.github.io/online-tools/images/logo.svg"><meta property="article:author" content="emn178"><meta property="article:tag" content="SHA512/256, online, hash, HMAC, UTF-8, UTF-16, Hex"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://emn178.github.io/online-tools/images/logo.svg"><link rel="canonical" href="https://emn178.github.io/online-tools/sha512_256.html"><link rel="icon" href="images/logo.svg"><script>if (location.hostname != 'localhost') {
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="content-language" content="en"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SHA512/256 - Online Tools</title><base href="/online-tools/"><meta name="keywords" content="SHA512/256, online, hash, HMAC, UTF-8, UTF-16, Hex"><meta name="author" content="emn178"><meta name="copyright" content="emn178"><meta name="description" content="This SHA512/256 online tool helps you calculate hash from string or binary. You can input UTF-8, UTF-16, Hex to SHA512/256. It also supports HMAC."><meta property="og:type" content="website"><meta property="og:title" content="SHA512/256"><meta property="og:url" content="https://emn178.github.io/online-tools/sha512_256.html"><meta property="og:site_name" content="Online Tools"><meta property="og:description" content="This SHA512/256 online tool helps you calculate hash from string or binary. You can input UTF-8, UTF-16, Hex to SHA512/256. It also supports HMAC."><meta property="og:locale" content="en"><meta property="og:image" content="https://emn178.github.io/online-tools/images/logo.svg"><meta property="article:author" content="emn178"><meta property="article:tag" content="SHA512/256, online, hash, HMAC, UTF-8, UTF-16, Hex"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://emn178.github.io/online-tools/images/logo.svg"><link rel="canonical" href="https://emn178.github.io/online-tools/sha512_256.html"><link rel="icon" href="images/logo.svg"><script>var delayScripts = [];
+var waitLoadCount = 0;
+if (location.hostname != 'localhost') {
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-WT6N5R6W6Z');
+
+  (function () {
+    var gaUrl = 'https://www.googletagmanager.com/gtag/js?id=G-WT6N5R6W6Z';
+
+    function initGTMOnEvent(e) {
+      document.removeEventListener(event.type, initGTMOnEvent);
+      initGTM();
+    }
+
+    function initGTM() {
+      if (window.gtmDidInit) {
+        return;
+      }
+      window.gtmDidInit = true;
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = gaUrl;
+      document.head.appendChild(script);
+    }
+
+    if (document.addEventListener) {
+      document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(initGTM, 3500);
+      });
+      document.addEventListener('scroll', initGTMOnEvent);
+      document.addEventListener('mousemove', initGTMOnEvent);
+      document.addEventListener('touchstart', initGTMOnEvent);
+    } else {
+      delayScripts.push({
+        src: gaUrl
+      });
+    }
+  })();
 }
 
-var delayScripts = [];
-var waitLoadCount = 0;
-(function () {
-  var gaUrl = 'https://www.googletagmanager.com/gtag/js?id=G-WT6N5R6W6Z';
-
-  function initGTMOnEvent(e) {
-    document.removeEventListener(event.type, initGTMOnEvent);
-    initGTM();
-  }
-
-  function initGTM() {
-    if (window.gtmDidInit) {
-      return;
-    }
-    window.gtmDidInit = true;
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = gaUrl;
-    document.head.appendChild(script);
-  }
-
-  if (document.addEventListener) {
-    document.addEventListener('DOMContentLoaded', function() {
-      setTimeout(initGTM, 3500);
-    });
-    document.addEventListener('scroll', initGTMOnEvent);
-    document.addEventListener('mousemove', initGTMOnEvent);
-    document.addEventListener('touchstart', initGTMOnEvent);
-  } else {
-    delayScripts.push({
-      src: gaUrl
-    });
-  }
-})();
 if (localStorage.getItem('DARK') === '1') {
   document.documentElement.classList.add('dark-theme')
 }

@@ -1,1 +1,1 @@
-$('option[data-load-encoding="base64"]').hide(),"base64"===$("#input-type").val()&&$("#input-type").val("utf-8");
+$('option[data-load-encoding="base64"]').hide(),"base64"===$("#input-type").val()&&$("#input-type").val("utf-8"),"base64"===$("#output-type").val()&&$("#output-type").val("utf-8");
