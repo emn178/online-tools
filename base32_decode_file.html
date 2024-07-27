@@ -54,14 +54,13 @@ if (localStorage.getItem('DARK') === '1') {
     }
   });
 </script>
-</div><div class="settings"><h2>Settings</h2><div class="container"><div class="setting"><a class="btn" id="download" download="download">Download</a></div><div class="setting"><label class="switcher"><input id="remember-input" type="checkbox" value="1"/><div class="toggle"></div><span>Remember Input</span></label></div><div class="setting"><label for="download-file-name">File Name</label><input id="download-file-name" type="text" data-remember="download-file-name" value="download.txt" placeholder="Download File Name"/></div></div></div></div><script>++waitLoadCount;
+</div><div class="settings"><h2>Settings</h2><div class="container"><div class="setting"><a class="btn" id="download" download="download">Download</a></div><div class="setting"><label class="switcher"><input type="checkbox" value="1" id="remember-input"/><div class="toggle"></div><span>Remember Input</span></label></div><div class="setting"><label for="download-file-name">File Name</label><input type="text" id="download-file-name" data-remember="download-file-name" value="download.txt" placeholder="Download File Name"/></div></div></div></div><script>++waitLoadCount;
 delayScripts.push({
   src: 'https://cdn.jsdelivr.net/gh/emn178/hi-base32@v0.5.1/build/base32.min.js',
   onload: function () {
     window.method = false;
     methodLoad();
   }
-});</script><script>++waitLoadCount;
-delayScripts.push({
+});</script><script>delayScripts.push({
   src: 'js/download.js'
-});</script></main></div><div id="message"></div></div><script src="https://code.jquery.com/jquery-1.10.1.min.js" defer></script><script src="js/main.js?v=29" defer></script></body></html>
+});</script></main></div><div id="message"></div></div><script src="https://code.jquery.com/jquery-1.10.1.min.js" defer></script><script src="js/main.js?v=30" defer></script></body></html>
