@@ -1,0 +1,14 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <g>
+   <line stroke-width="4" y2="5.625" x2="60" y1="5.625" x1="43" stroke="#9ca3af" fill="none"/>
+   <line y2="20" x2="58" y1="7" x1="58" stroke-width="4" stroke="#9ca3af" fill="none"/>
+   <path transform="rotate(-45 47.8037 15.8037)" d="m34.2927,15.80373l27.02201,0" opacity="undefined" stroke-width="4" stroke="#9ca3af" fill="none"/>
+  </g>
+  <g transform="rotate(-180 14.875 48.8662)">
+   <line stroke-width="4" y2="39" x2="25.75" y1="39" x1="8.75" stroke="#9ca3af" fill="none"/>
+   <line y2="53.375" x2="23.75" y1="40.375" x1="23.75" stroke-width="4" stroke="#9ca3af" fill="none"/>
+   <path transform="rotate(-45 13.5537 49.1787)" d="m0.0427,49.17873l27.02201,0" opacity="undefined" stroke-width="4" stroke="#9ca3af" fill="none"/>
+  </g>
+ </g>
+</svg>
