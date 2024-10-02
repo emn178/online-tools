@@ -52,6 +52,12 @@ delayScripts.push({
   }
 });</script><script>++waitLoadCount;
 delayScripts.push({
+  src: 'js/base64.min.js?v=0.4.1',
+  onload: function () {
+    methodLoad();
+  }
+});</script><script>++waitLoadCount;
+delayScripts.push({
   src: 'js/url-blob.js',
   onload: function () {
     methodLoad();
