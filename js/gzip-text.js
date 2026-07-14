@@ -1,0 +1,1 @@
+(()=>{(function(r){"use strict";r.CompressionTextCodec={compress:function(e,n){if(n=Number(n),!Number.isInteger(n)||n<0||n>9)throw new Error("Compression level must be between 0 and 9.");return FflateZip.gzipSync(e,{level:n,mtime:0})},decompress:function(e){return FflateZip.gunzipSync(e)}}})(window);})();
