@@ -1,0 +1,1 @@
+(()=>{(function(e){"use strict";function i(r){return/\.tar\.br$/i.test(r)?r.replace(/\.br$/i,""):r.replace(/\.br$/i,"")||"file"}jQuery(e).on("methodLoad",function(){e.CompressionArchive=e.SingleStreamArchive.create({codec:CompressionCodec,singleExtension:".br",tarExtension:".tar.br",containerKey:"brotliContainer",fallbackFilename:i})})})(window);})();
