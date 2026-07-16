@@ -1,1 +1,1 @@
-(()=>{(function(r){"use strict";r.CompressionArchive={extension:".tar",create:function(t,e,c){return r.TarCodec.create(t,e,c)},list:function(t,e){return r.TarCodec.list(t,e)},extract:function(t,e){return r.TarCodec.extract(t,e)}}})(window);})();
+(()=>{(function(c){"use strict";c.CompressionArchive={extension:".tar",create:function(t,e,r){return c.TarCodec.create(t,e,r)},list:function(t,e,r){return c.TarCodec.list(t,e,r)},extract:function(t,e,r){return c.TarCodec.extract(t,e,r)}}})(window);})();
