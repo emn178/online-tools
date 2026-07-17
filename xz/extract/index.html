@@ -48,7 +48,7 @@ if (localStorage.getItem('DARK') === '1') {
 <h2 id="how-to-use-this-tool">How to use this tool</h2>
 <p>Open a supported archive, browse its contents, then extract individual entries or the complete folder structure. Processing takes place locally in the browser. Keep the input and output encoding selections consistent with the system that produced or will consume the data.</p>
 <h2 id="choosing-the-right-format">Choosing the right format</h2>
-<p>XZ files are useful when you need to recover the original file hierarchy. Higher compression settings may reduce size but generally take more time and memory.</p>
+<p>XZ files are useful when you need to recover the original file hierarchy. Decompression uses the parameters stored in the data and does not improve the compression ratio.</p>
 <h2 id="important-limitations">Important limitations</h2>
 <p>Compressed data is not encrypted and provides no confidentiality. Browser memory limits also make command-line or desktop software more appropriate for very large inputs. Archive filenames and paths may not be portable across every operating system. Never extract untrusted entries over important files without reviewing their names and destinations.</p>
 <h2 id="frequently-asked-questions">Frequently asked questions</h2>
