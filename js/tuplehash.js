@@ -1,0 +1,1 @@
+!function(n){var i=$("#input-mode");n.wrapTupleHash=function(t){return function(){return"single"===i.val()&&(arguments[0]=[arguments[0]]),n[t].apply(this,arguments)}}}(window);
