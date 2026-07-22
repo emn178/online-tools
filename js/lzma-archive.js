@@ -1,0 +1,1 @@
+(()=>{(function(e){"use strict";function i(a){return/\.tar\.lzma$/i.test(a)?a.replace(/\.lzma$/i,""):a.replace(/\.lzma$/i,"")||"file"}jQuery(e).on("methodLoad",function(){e.CompressionArchive=e.SingleStreamArchive.create({codec:CompressionCodec,singleExtension:".lzma",tarExtension:".tar.lzma",containerKey:"lzmaContainer",fallbackFilename:i})})})(window);})();

@@ -1,0 +1,1 @@
+(()=>{(function(e){"use strict";function o(){e.CompressionCodec=e.CompressionCodecFactory.create({name:"LZMA-Alone",format:"lzma",streaming:{compress:!0,decompress:!1},worker:"lzma-worker.js?v=1",mimeType:"application/x-lzma",level:{min:0,max:9,default:6}})}e.CompressionCodecFactory?o():e.addEventListener("compressionCodecFactoryReady",o,{once:!0})})(window);})();
