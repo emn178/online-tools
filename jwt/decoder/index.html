@@ -92,14 +92,14 @@ if (localStorage.getItem('DARK') === '1') {
 <p>Because the payload is Base64URL-encoded JSON, not ciphertext. Confidentiality requires encryption (for example <a href="/online-tools/jwe/encrypt/">JWE</a>) or a channel that never exposes the token.</p>
 </div></details><div class="layout"><div class="layout-block"><div class="input"><div class="block block-fill"><div class="block-title">Input<div class="toolbar"><button class="icon" data-toggle="fullscreen"><img class="fullscreen-icon" src="images/fullscreen.svg" alt="Full Screen" title="Full Screen"><img class="fullscreen-icon-exit" src="images/fullscreen-exit.svg" alt="Full Screen" title="Full Screen"></button></div></div><textarea class="container" id="input" spellcheck="false" placeholder="Enter here..." data-encoding-from="#input-type" data-mode-from="#input-mode" data-auto-update data-toggle="monacoEditor"></textarea></div></div><div class="settings mobile-only"><div class="container"><div class="setting"><button class="btn btn-execute" type="button">Decode</button></div></div></div><details class="block block-ad mobile-only" open><summary class="block-title">Advertisement<div class="toolbar"></div></summary><div class="container"><ins class="ads" style="display:block" data-ad-client="ca-pub-3558414621046573" data-ad-slot="5006003958"></ins></div></details><div class="output"><div class="block block-fill"><div class="block-title">Output<div class="toolbar"><button class="icon" data-toggle="fullscreen"><img class="fullscreen-icon" src="images/fullscreen.svg" alt="Full Screen" title="Full Screen"><img class="fullscreen-icon-exit" src="images/fullscreen-exit.svg" alt="Full Screen" title="Full Screen"></button></div></div><div class="container container-viewer" id="output"></div></div></div></div><div class="settings"><div class="block block-fill"><div class="block-title">Settings</div><div class="container"><div class="setting desktop-only"><button class="btn btn-execute" type="button">Decode</button></div><div class="setting"><label class="switcher"><input type="checkbox" value="1" id="auto-update" checked><div class="toggle"></div><span>Auto Update</span></label></div></div></div><details class="block block-ad desktop-only" open><summary class="block-title">Advertisement<div class="toolbar"></div></summary><div class="container"><ins class="ads" style="display:block" data-ad-client="ca-pub-3558414621046573" data-ad-slot="8132475140"></ins></div></details></div></div></div><script>++waitLoadCount;
 delayScripts.push({
-  src: 'js/jwt-decoder.js?v=4',
+  src: 'js/jwt-decoder.js?v=5',
   onload: function () {
     window.method = jwtDecoder.view;
     methodLoad();
   }
 });</script><script>++waitLoadCount;
 delayScripts.push({
-  src: 'js/base64.min.js?v=0.5.0',
+  src: 'js/base64.min.js?v=0.6.0',
   onload: function () {
     methodLoad();
   }
